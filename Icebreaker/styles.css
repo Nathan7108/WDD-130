@@ -1,0 +1,45 @@
+/* Global Styles */
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #3498db, #2ecc71);
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-bottom: 2px solid #ffffff;
+}
+header h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+.about-me {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.profile-photo {
+    display: block;
+    margin: 20px auto;
+    width: 300px; /* Increase width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10%; /* Change shape if needed */
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
