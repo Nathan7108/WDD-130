@@ -4,66 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raft the Rapids</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>  
-    <header class="hero">
-        <nav class="navbar">
-            <h1 class="logo">Raft the Rapids</h1>
-            <ul class="nav-links">
-                <li><a href="about.html">About</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="hero-content">
-            <h2>Experience the Thrill of River Rafting</h2>
-            <p>Join us for an unforgettable adventure on the rapids!</p>
-            <a href="#trips" class="cta-button">Book Your Trip</a>
-        </div>
-    </header>
+<body>
+    <!-- Background Video -->
+    <video id="background-video" autoplay loop muted>
+        <source src="videos/rafting.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
-<main>
-    <section id="about" class="about-section">
-        <h2>About Raft the Rapids</h2>
-        <p>At Raft the Rapids, we are dedicated to providing you with an unforgettable river rafting experience.
-             Our expert guides will take you on a thrilling journey down some of the most exciting rapids in the country. 
-             Whether you are a seasoned rafter or a first-timer, we have the perfect trip for you. Book your adventure today!</p>
-    </section>
+    <div id="content">
+        <header>
+            <nav>
+                <h1 class="home-title">Raft the Rapids</h1>
+                <a href="about.html">About</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
 
-    <section id="trips" class="trips-section">
-        <h2>Our Trips</h2>
-        <div class="trip-card">
-            <h3>Beginner Rapids</h3>
-            <p>Perfect for families and first-time rafters. Enjoy a scenic and gentle ride down the river.</p>
-        </div>
-        <div class="trip-card">
-            <h3>Intermediate Rapids</h3>
-            <p>For those looking for a bit more excitement. Navigate through moderate rapids with our experienced guides.</p>
-        </div>
-        <div class="trip-card">
-            <h3>Intermediate Rapids</h3>
-            <h3>Advanced Rapids</h3>
-            <p>For the thrill seekers! Tackle challenging and intense rapids with our expert guides ensuring your safety.</p>
-        </div>
-    </section>
-    <section id="contact" class="contact-section">
-        <h2>Contact Us</h2>
-        <form class="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+        <main>
+            <section id="hero">
+                <img id="hero-img" src="images/hero.jpg" alt="Rafting Adventure">
+                <div id="hero-msg">
+                    <h1>Welcome to Raft the Rapids</h1>
+                    <h4>Your next great adventure awaits!</h4>
+                </div>
+                <div class="button-box">
+                    <a href="trips.html" class="join">Explore Trips</a>
+                </div>
+            </section>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <section class="rapids-card">
+                <img class="card-img" src="images/rapids.jpg" alt="Rafting Rapids">
+                <img class="icon" src="images/oars.png" alt="Oars Icon">
+                <h2>Rapids</h2>
+            </section>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <div id="background"></div>
 
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-</main>
-<footer class="footer">
-    <p>&copy; 2025 Raft the Rapids. All Rights Reserved</p>
-</footer>
+            <section class="msg">
+                <h2>More Than Just The Thrill</h2>
+                <p>Enjoy breathtaking scenery. From valleys, meadows, canyons, and high peaks, it's way more than just the rapids.</p>
+                <a class="join" href="rivers.html">Join Us</a>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Raft the Rapids. All Rights Reserved.</p>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </footer>
+    </div>
 </body>
+</html>
