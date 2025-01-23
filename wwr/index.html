@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <!-- Background Video -->
-    <video id="background-video" autoplay loop muted>
-        <source src="videos/rafting.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
 
     <div id="content">
         <header>
             <nav>
-                <h1 class="home-title">Raft the Rapids</h1>
-                <a href="about.html">About</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact</a>
+                <!-- Logo aligned to the left -->
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="images/logo.png" alt="Raft the Rapids Logo">
+                </a>
+
+                <!-- Website Title Centered -->
+                <h1 class="site-title">Raft the Rapids</h1>
+
+                <!-- Navigation Links -->
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="site-plan-rafting.html">Site Plan</a></li>
+                </ul>
             </nav>
         </header>
 
@@ -35,13 +41,24 @@
                 </div>
             </section>
 
-            <section class="rapids-card">
-                <img class="card-img" src="images/rapids.jpg" alt="Rafting Rapids">
-                <img class="icon" src="images/oars.png" alt="Oars Icon">
-                <h2>Rapids</h2>
+            <!-- Cards Section -->
+            <section class="cards-container">
+                <div class="card">
+                    <img src="images/rapids.jpg" alt="Rafting Rapids">
+                    <h2>Thrilling Rapids</h2>
+                    <p>Experience the rush of powerful waters as you navigate the rapids!</p>
+                </div>
+                <div class="card">
+                    <img src="images/rapids2.jpg" alt="Team Rafting">
+                    <h2>Team Adventure</h2>
+                    <p>Work together and paddle through exciting challenges!</p>
+                </div>
+                <div class="card">
+                    <img src="images/rapids3.jpg" alt="Scenic Rafting">
+                    <h2>Scenic Journeys</h2>
+                    <p>Enjoy breathtaking scenery while floating down the river.</p>
+                </div>
             </section>
-
-            <div id="background"></div>
 
             <section class="msg">
                 <h2>More Than Just The Thrill</h2>
@@ -56,5 +73,6 @@
             <a href="https://instagram.com" target="_blank">Instagram</a>
         </footer>
     </div>
+    
 </body>
 </html>
