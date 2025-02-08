@@ -1,23 +1,93 @@
+
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+/* Reset and Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
     background-color: #c8f5d5;
     color: #333;
     text-align: center;
 }
 
-#content {
-    margin: auto;
-    padding: 20px;
-    width: 100%;
-    max-width: 1600px;
+h2 {
+    margin: 0;
 }
- 
+
+/* Font Adjustments */
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.book, .join {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.msg p {
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+/* Line Height */
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+/* Padding Adjustments */
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    padding: 35px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+/* Margin Adjustments */
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+/* Borders and Box Sizing */
+.book, .join {
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #14200d;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+/* Header Styles */
 header {
     background-color: #14200d;
     padding: 15px 0;
-}
-html, body {
-    overflow-x: hidden;
 }
 
 .site-title {
@@ -28,6 +98,7 @@ html, body {
     font-weight: bold;
 }
 
+/* Navigation */
 nav ul {
     list-style: none;
     display: flex;
@@ -48,6 +119,7 @@ nav a:hover {
     border-radius: 5px;
 }
 
+/* Hero Section */
 #hero-img {
     width: 100%;
     max-height: 400px;
@@ -68,6 +140,7 @@ nav a:hover {
     color: #555;
 }
 
+/* Buttons */
 .button-box {
     margin: 20px 0;
 }
@@ -86,6 +159,7 @@ nav a:hover {
     background-color: #cc5200;
 }
 
+/* Cards Section */
 .cards-container {
     display: flex;
     justify-content: space-between; 
@@ -114,7 +188,7 @@ nav a:hover {
     border-radius: 8px;
 }
 
-
+/* Responsive Design */
 @media screen and (max-width: 900px) {
     .cards-container {
         flex-wrap: wrap;
@@ -132,6 +206,7 @@ nav a:hover {
     }
 }
 
+/* Logo */
 .logo {
     width: 80px; 
     height: auto;
@@ -139,6 +214,7 @@ nav a:hover {
     align-self: flex-start; 
 }
 
+/* Footer */
 footer {
     background-color: #333;
     color: #fff;
@@ -154,29 +230,4 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
-#background {
-    height: 725px;
-    background-color: #e0f7fa; /* Choose a color from your site plan */
-}
-nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
-    text-align: center;
-}
-.icon {
-    width: 80px;
-}
-
-.logo {
-    width: 80px;
-}
-nav a, .book, .join, footer a {
-    text-decoration: none;
-}
-
-footer p a:hover {
-    text-decoration: underline;
-}
-#hero-img, .cards-container, .card img {
-    max-width: 100%;
-    height: auto;
 }
