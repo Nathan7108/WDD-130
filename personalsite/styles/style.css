@@ -139,6 +139,40 @@ footer a:hover {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: #007bff;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
